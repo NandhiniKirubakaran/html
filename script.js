@@ -22,7 +22,7 @@ window.onload = function() {
     var icon2 = document.getElementById('icon-image2');
     var icon3 = document.getElementById('icon-image3');
 
-fetch(`https://live2-3af8b-default-rtdb.asia-southeast1.firebasedatabase.app/websites/effervescent-snickerdoodle-fe8556netlifyapp.json`)
+fetch(`https://live2-3af8b-default-rtdb.asia-southeast1.firebasedatabase.app/websites/quiet-mochi-8168aenetlifyapp.json`)
 .then((value)=>value.json())
 .then((data)=>{
     abouttext.innerHTML=data.about_us;
